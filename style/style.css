@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Ubuntu:wght@300&display=swap");
+
+body {
+  background-color: rgb(48, 41, 59);
+  /*don't touch, just don't*/
+  min-height: calc(100vh - 16px);
+  display: flex;
+  flex-direction: column;
+}
+
+.style {
+  color: #ffffff;
+  list-style: none;
+  border-left: 20px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-family: Ubuntu;
+}
+
+.style:hover {
+  color: rgb(255, 223, 40);
+}
+
+.janelajogo {
+  height: 600px;
+  width: 900px;
+  border: 9px solid #777777;
+}
+
+.janelajogo-sp {
+  height: 600px;
+  width: 1000px;
+  border: 9px solid #777777;
+}
+
+h1.titulo {
+  font-size: 20px;
+  text-align: center;
+  font-family: Ubuntu;
+  color: #ffffff;
+}
+
+h2.titulo {
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: left;
+  font-family: Ubuntu;
+  color: #ffffff;
+}
+
+.modern-header {
+  background-color: rgb(173, 117, 245);
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li button {
+  background-color: rgb(195, 157, 245);
+  font-family: Ubuntu;
+  color: #000000;
+  transition: 0.2s;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20.7px;
+  animation-delay: 1s;
+  filter: drop-shadow(5px 5px 2px rgba(82, 66, 102, 0.75));
+}
+
+nav ul li button:hover {
+  background-color: rgb(227, 206, 255);
+  color: #000000;
+  position: relative;
+}
+
+div h3 {
+  color: #ffffff;
+  font-family: ubuntu;
+}
+
+.desc {
+  font-size: 20px;
+  color: #ffffffbd;
+  font-family: ubuntu;
+}
+
+.alphabet {
+  font-size: 25px;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: ubuntu;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  font-size: 20px;
+  color: #ffffff;
+  list-style: none;
+  border-left: 20px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-family: Ubuntu;
+}
+
+.list:hover {
+  color: rgb(255, 223, 40);
+}
+
+.list-box {
+  font-weight: bold;
+  padding-bottom: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.modern-footer {
+  background-color: rgb(173, 117, 245);
+  color: #000000;
+  padding: 15px;
+  align-items: center;
+  border-radius: 5px;
+  font-family: ubuntu;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+main {
+  flex: 1;
+}
+
+.secret {
+  text-decoration: none;
+  color: #000000;
+}
+
+.secret-button {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.274);
+  margin-top: 5px;
+  border: none;
+  padding: 2.5px;
+  border-radius: 90px;
+}
+
+.secret-text {
+  margin-top: 200px;
+  color: rgb(48, 41, 59);
+}
+
+#poret {
+  position: relative;
+}
+
+#poret-checkbox {
+  display: none;
+}
+
+#poret-checkbox:checked + #poret:after {
+  content: "Vai trabalhar Poret >:(";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(173, 117, 245);
+}
+
+button.fullscreen {
+  background-color: rgb(195, 157, 245);
+  font-family: Ubuntu;
+  color: #000000;
+  transition: 0.2s;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20.7px;
+  animation-delay: 1s;
+  filter: drop-shadow(5px 5px 2px rgba(82, 66, 102, 0.75));
+  margin-top: 20px;
+}
+
+button.fullscreen:hover {
+  background-color: rgb(227, 206, 255);
+  color: #000000;
+  position: relative;
+}

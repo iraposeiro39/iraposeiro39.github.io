@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Kaluma - Whack your Boss</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/ico">
+    <script src="../scripts.js"></script>
+</head>
+
+<body>
+    <header class="modern-header">
+        <div>
+            <a href="../index.html">
+                <img class="logo" src="../img/logo.png">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><button onclick="window.location.href='../index.html';">Home</button></li>
+                <li><button onclick="window.location.href='../list.html';">Games List</button></li>
+                <li><button onclick="window.location.href='../about-us.html';">About</button></li>
+                <li><button onclick="window.location.href='../contact.html';">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1 class="titulo">Play Whack your Boss</h1>
+    <center>
+        <div class="janelajogo">
+            <iframe style="height:100%;width:100%" src="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fwhackyourboss.xml"
+                frameborder="0" scrolling="no"
+                id="game">
+            </iframe>
+        </div>
+        <button class="fullscreen" onclick="openFullscreen();">Fullscreen</button>
+    </center>
+    <h2 class="desc">
+        <p>Description:</p>
+        <p>Whack Your Boss is a darkly humorous game where the objective is to find creative and exaggerated ways to "whack" your virtual boss. The game features various office settings and objects that can be used to inflict comically gruesome harm on the boss character. It's not meant to be taken seriously and serves as a stress-relief or cathartic experience rather than a traditional gaming objective.</p>
+        <p>Controls:</p>
+        <p>Select with the mouse</p>
+    </h2>
+    </main>
+    <footer class="modern-footer">
+        <p>©2023 Kaluma. All Rights Reserved</p>
+    </footer>
+    <script>
+        var elem = document.getElementById("game");
+    </script>
+</body>
